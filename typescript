@@ -1,0 +1,504 @@
+Script started on 2023-09-03 11:19:11+08:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="70" LINES="35"]
+]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ cat typescriptb[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmake qemu[4Pcd ..make qemu
+qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m 128M -smp 3 -nographic -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+init: starting sh
+$ ls
+.              1 1 1024
+..             1 1 1024
+README         2 2 2226
+xargstest.sh   2 3 93
+cat            2 4 23904
+echo           2 5 22736
+forktest       2 6 13088
+grep           2 7 27256
+init           2 8 23832
+kill           2 9 22704
+ln             2 10 22656
+ls             2 11 26136
+mkdir          2 12 22800
+rm             2 13 22792
+sh             2 14 41672
+stressfs       2 15 23808
+usertests      2 16 156016
+grind          2 17 37976
+wc             2 18 25040
+zombie         2 19 22200
+sleep          2 20 22728
+console        3 21 0
+$ sleep
+Usage: sleep seconds
+$ slepp  ep 100
+sleeping...
+test$ ls
+.              1 1 1024
+..             1 1 1024
+README         2 2 2226
+xargstest.sh   2 3 93
+cat            2 4 23904
+echo           2 5 22736
+forktest       2 6 13088
+grep           2 7 27256
+init           2 8 23832
+kill           2 9 22704
+ln             2 10 22656
+ls             2 11 26136
+mkdir          2 12 22800
+rm             2 13 22792
+sh             2 14 41672
+stressfs       2 15 23808
+usertests      2 16 156016
+grind          2 17 37976
+wc             2 18 25040
+zombie         2 19 22200
+sleep          2 20 22728
+console        3 21 0
+$ QEMU: Terminated
+]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ ba[K[Kva[K[Kcat sc[K[K[K[K[K[Kls
+LICENSE      fs.img          typescript              xv6.out.pingpong
+Makefile     [0m[01;32mgrade-lab-util[0m  [01;34muser[0m                    xv6.out.primes
+README       gradelib.py     xv6.out                 xv6.out.xargs
+[01;34m__pycache__[0m  [01;34mkernel[0m          xv6.out.find_curdir
+[01;34mconf[0m         [01;34mmkfs[0m            xv6.out.find_recursive
+]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ vim typescript
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"typescript" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                     [3;1H~                                                                     [4;1H~                                                                     [5;1H~                                                                     [6;1H~                                                                     [7;1H~                                                                     [8;1H~                                                                     [9;1H~                                                                     [10;1H~                                                                     [11;1H~                                                                     [12;1H~                                                                     [13;1H~                                                                     [14;1H~                                                                     [15;1H~                                                                     [16;1H~                                                                     [17;1H~                                                                     [18;1H~                                                                     [19;1H~                                                                     [20;1H~                                                                     [21;1H~                                                                     [22;1H~                                                                     [23;1H~                                                                     [24;1H~                                                                     [25;1H~                                                                     [26;1H~                                                                     [27;1H~                                                                     [28;1H~                                                                     [29;1H~                                                                     [30;1H~                                                                     [31;1H~                                                                     [32;1H~                                                                     [33;1H~                                                                     [34;1H~                                                                     [m[35;53H0,0-1[9CAll[1;1H[?25h[?25l[35;43H^[[1;1H[35;45H[[1;1H[35;46H>[1;1H[35;47H0[1;1H[35;48H;[1;1H[35;49H1[1;1H[35;50H0[1;1H[35;51H;[1;1H[35;43H         [1;1H[?25h[?25l[35;43H^A[1;1H[35;43H  [1;1H[?25h[?25l[35;43H:[1;1H[35;1H[K[35;1H:[?2004h[?25hq[?25l[?2004l[23;2t[23;1t[35;1H[K[35;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ vim typescript
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"typescript" [noeol] 68L, 4096C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HScript started on 2023-09-03 11:19:11+08:00 [TERM="xterm-256color" TTYY[2;1H="/dev/pts/2" COLUMNS="70" LINES="35"]
+[34m^[[m]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[34m^G^[[m[01;32mmayujia@LAPP[4;1HTOP-PDSLMIND[34m^[[m[00m:[34m^[[m[01;34m~/os/xv6-labs-2021[34m^[[m[00m$ cat typescript[34m^HH[5;1H^H^H^H^H^H^H^H^H^H^H^H^H^H[mb[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[[[6;1HC[34m^[[m[C[34m^[[m[C[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mmake qemu[34m^H^H^H^H^H^H^HH[7;1H^H^H^[[m[4Pcd ..[34m^H^H^H^H^H[mmake qemu[34m^M[m
+qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m  [9;1H128M -smp 3 -nographic -drive file=fs.img,if=none,format=raw,id=x0 -dee[10;1Hvice virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0[34m^M
+^M[m
+xv6 kernel is booting[34m^M
+^M[m
+hart 1 starting[34m^M[m
+hart 2 starting[34m^M[m
+init: starting sh[34m^M[m
+$ ls[34m^M[m
+.[14C1 1 1024[34m^M[m
+..[13C1 1 1024[34m^M[m
+README[9C2 2 2226[34m^M[m
+xargstest.sh   2 3 93[34m^M[m
+cat[12C2 4 23904[34m^M[m
+echo[11C2 5 22736[34m^M[m
+forktest[7C2 6 13088[34m^M[m
+grep[11C2 7 27256[34m^M[m
+init[11C2 8 23832[34m^M[m
+kill[11C2 9 22704[34m^M[m
+ln[13C2 10 22656[34m^M[m
+ls[13C2 11 26136[34m^M[m
+mkdir[10C2 12 22800[34m^M[m
+rm[13C2 13 22792[34m^M[m
+sh[13C2 14 41672[34m^M[m
+stressfs[7C2 15 23808[34m^M[m
+usertests      2 16 156016[34m^M[m[35;53H1,1[11CTop[1;1H[?25h[?25l[35;43H^[[1;1H[35;45H[[1;1H[35;46H>[1;1H[35;47H0[1;1H[35;48H;[1;1H[35;49H1[1;1H[35;50H0[1;1H[35;51H;[1;1H[35;43H         [1;1H[?25h[?25l[35;43H^A[1;1H[35;43H  [1;22H4[47CYY[2;1H=[35;55H22[1;22H[?25h[?25l[35;43H:[1;22H[35;1H[K[35;1H:[?2004h[?25hq[?25l[97m[41mE37: No write since last change (add ! to override)[?2004h[m
+[32mPress ENTER or type command to continue[?25h[?25l[1;22H[m[35;43H:[1;22H[35;1H[K[35;1H:[?2004h[?25hq![?25l[?2004l[23;2t[23;1t[35;1H[K[35;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ vim typescript
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"typescript" [noeol] 96L, 8192C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HScript started on 2023-09-03 11:19:11+08:00 [TERM="xterm-256color" TTYY[2;1H="/dev/pts/2" COLUMNS="70" LINES="35"]
+[34m^[[m]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[34m^G^[[m[01;32mmayujia@LAPP[4;1HTOP-PDSLMIND[34m^[[m[00m:[34m^[[m[01;34m~/os/xv6-labs-2021[34m^[[m[00m$ cat typescript[34m^HH[5;1H^H^H^H^H^H^H^H^H^H^H^H^H^H[mb[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[[[6;1HC[34m^[[m[C[34m^[[m[C[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mmake qemu[34m^H^H^H^H^H^H^HH[7;1H^H^H^[[m[4Pcd ..[34m^H^H^H^H^H[mmake qemu[34m^M[m
+qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m  [9;1H128M -smp 3 -nographic -drive file=fs.img,if=none,format=raw,id=x0 -dee[10;1Hvice virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0[34m^M
+^M[m
+xv6 kernel is booting[34m^M
+^M[m
+hart 1 starting[34m^M[m
+hart 2 starting[34m^M[m
+init: starting sh[34m^M[m
+$ ls[34m^M[m
+.[14C1 1 1024[34m^M[m
+..[13C1 1 1024[34m^M[m
+README[9C2 2 2226[34m^M[m
+xargstest.sh   2 3 93[34m^M[m
+cat[12C2 4 23904[34m^M[m
+echo[11C2 5 22736[34m^M[m
+forktest[7C2 6 13088[34m^M[m
+grep[11C2 7 27256[34m^M[m
+init[11C2 8 23832[34m^M[m
+kill[11C2 9 22704[34m^M[m
+ln[13C2 10 22656[34m^M[m
+ls[13C2 11 26136[34m^M[m
+mkdir[10C2 12 22800[34m^M[m
+rm[13C2 13 22792[34m^M[m
+sh[13C2 14 41672[34m^M[m
+stressfs[7C2 15 23808[34m^M[m
+usertests      2 16 156016[34m^M[m[35;53H1,22[10CTop[1;22H[?25h[?25l[35;43H~@k[1;22H[35;43H   [3;22H[35;53H2,21-22[3;22H[?25h[?25l[35;43H~@k[3;22H[35;43H   [8;22H[35;53H3,22   [8;22H[?25h[?25l[35;43H~@k[8;22H[35;43H   [11;1H[35;53H4,1 [11;1H[?25h[?25l[35;43H~@k[11;1H[35;43H   [12;22H[35;53H5,22[12;22H[?25h[?25l[35;43H~@k[12;22H[35;43H   [13;1H[35;53H6,1 [13;1H[?25h[?25l[35;43H~@k[13;1H[35;43H   [14;16H[35;53H7,16[14;16H[?25h[?25l[35;43H~@k[14;16H[35;43H   [15;16H[35;53H8[15;16H[?25h[?25l[35;43H~@k[15;16H[35;43H   [16;18H[35;53H9,18[16;18H[?25h[?25l[35;43H~@k[16;18H[35;43H   [17;5H[35;53H10,5[17;5H[?25h[?25l[35;43H~@k[17;5H[35;43H   [18;22H[35;54H1,22[18;22H[?25h[?25l[35;43H~@k[18;22H[35;43H   [19;22H[35;54H2[19;22H[?25h[?25l[35;43H~@k[19;22H[35;43H   [20;22H[35;54H3[20;22H[?25h[?25l[35;43H~@k[20;22H[35;43H   [21;22H[35;54H4[21;22H[?25h[?25l[35;43H~@k[21;22H[35;43H   [22;22H[35;54H5[22;22H[?25h[?25l[35;43H~@k[22;22H[35;43H   [23;22H[35;54H6[23;22H[?25h[?25l[35;43H~@k[23;22H[35;43H   [24;22H[35;54H7[24;22H[?25h[?25l[35;43H~@k[24;22H[35;43H   [25;22H[35;54H8[25;22H[?25h[?25l[35;43H~@k[25;22H[35;43H   [26;22H[35;54H9[26;22H[?25h[?25l[35;43H~@k[26;22H[35;43H   [27;22H[35;53H20[27;22H[?25h[?25l[35;43H~@k[27;22H[35;43H   [28;22H[35;54H1[28;22H[?25h[?25l[35;43H~@k[28;22H[35;43H   [29;22H[35;54H2[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [28;22H[1;34r[1;1H[2M[1;35r[33;1Hgrind[10C2 17 37976[34m^M[m
+wc[13C2 18 25040[34m^M[m[35;1H[K[35;53H23,22[10C1%[28;22H[?25h[?25l[35;43H~@k[28;22H[35;43H   [29;22H[35;54H4[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [25;22H[1;34r[1;1H[5M[1;35r[30;1Hzombie[9C2 19 22200[34m^M[m
+sleep[10C2 20 22728[34m^M[m
+console[8C3 21 0[34m^M[m
+$ sleep[34m^M[m
+Usage: sleep seconds[34m^M[m[35;53H[K[35;53H25,22[10C3%[25;22H[?25h[?25l[35;43H~@k[25;22H[35;43H   [26;22H[35;54H6[26;22H[?25h[?25l[35;43H~@k[26;22H[35;43H   [27;22H[35;54H7[27;22H[?25h[?25l[35;43H~@k[27;22H[35;43H   [28;22H[35;54H8[28;22H[?25h[?25l[35;43H~@k[28;22H[35;43H   [29;22H[35;54H9[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [27;22H[1;34r[1;1H[3M[1;35r[32;1H$ slepp[34m^H[m [34m^H^H[m [34m^H[mep 100[34m^M[m
+sleeping...[34m^M[m
+test$ ls[34m^M[m[35;53H[K[35;53H30,22[10C4%[27;22H[?25h[?25l[35;43H~@k[27;22H[35;43H   [28;22H[35;54H1[28;22H[?25h[?25l[35;43H~@k[28;22H[35;43H   [29;22H[35;54H2[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;8H[1;34r[34;1H
+[1;35r[34;1H.[14C1 1 1024[34m^M[m[35;53H[K[35;53H33,8[11C6%[29;8H[?25h[?25l[35;43H~@k[29;8H[35;43H   [29;21H[1;34r[34;1H
+[1;35r[34;1H..[13C1 1 1024[34m^M[m[35;53H[K[35;53H34,21[10C8%[29;21H[?25h[?25l[35;43H~@k[29;21H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1HREADME[9C2 2 2226[34m^M[m[35;53H[K[35;53H35,18-22[7C9%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;12H[1;34r[34;1H
+[1;35r[34;1Hxargstest.sh   2 3 93[34m^M[m[35;53H[K[35;53H36,12[9C11%[29;12H[?25h[?25l[35;43H~@k[29;12H[35;43H   [29;9H[1;34r[34;1H
+[1;35r[34;1Hcat[12C2 4 23904[34m^M[m[35;53H[K[35;53H37,9[10C12%[29;9H[?25h[?25l[35;43H~@k[29;9H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hecho[11C2 5 22736[34m^M[m[35;53H[K[35;53H38,22[9C14%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hforktest[7C2 6 13088[34m^M[m[35;53H[K[35;53H39,22[9C16%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hgrep[11C2 7 27256[34m^M[m[35;53H[K[35;53H40,22[9C17%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hinit[11C2 8 23832[34m^M[m[35;53H[K[35;53H41,22[9C19%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hkill[11C2 9 22704[34m^M[m[35;53H[K[35;53H42,22[9C20%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hln[13C2 10 22656[34m^M[m[35;53H[K[35;53H43,22[9C22%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hls[13C2 11 26136[34m^M[m[35;53H[K[35;53H44,22[9C24%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hmkdir[10C2 12 22800[34m^M[m[35;53H[K[35;53H45,22[9C25%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hrm[13C2 13 22792[34m^M[m[35;53H[K[35;53H46,22[9C27%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hsh[13C2 14 41672[34m^M[m[35;53H[K[35;53H47,22[9C29%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hstressfs[7C2 15 23808[34m^M[m[35;53H[K[35;53H48,22[9C30%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Husertests      2 16 156016[34m^M[m[35;53H[K[35;53H49,22[9C32%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hgrind[10C2 17 37976[34m^M[m[35;53H[K[35;53H50,22[9C33%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hwc[13C2 18 25040[34m^M[m[35;53H[K[35;53H51,22[9C35%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hzombie[9C2 19 22200[34m^M[m[35;53H[K[35;53H52,22[9C37%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hsleep[10C2 20 22728[34m^M[m[35;53H[K[35;53H53,22[9C38%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1Hconsole[8C3 21 0[34m^M[m[35;53H[K[35;53H54,22[9C40%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [29;22H[1;34r[34;1H
+[1;35r[34;1H$ QEMU: Terminated[34m^M[m[35;53H[K[35;53H55,22[9C41%[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [27;22H[1;34r[1;1H[3M[1;35r[32;1H[34m^M^[[m]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[34m^G^[[m[01;32mmayujia@LL[33;1HAPTOP-PDSLMIND[34m^[[m[00m:[34m^[[m[01;34m~/os/xv6-labs-2021[34m^[[m[00m$ ba[34m^H^[[m[K[34m^H^[[m[KK[34;1Hva[34m^H^[[m[K[34m^H^[[m[Kcat sc[34m^G^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[Kls[34m^M[m[35;53H[K[35;53H56,22[9C45%[27;22H[?25h[?25l[35;43H~@k[27;22H[35;43H   [28;22H[35;54H7[28;22H[?25h[?25l[35;43H~@k[28;22H[35;43H   [29;22H[35;54H8[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [28;22H[1;34r[1;1H[2M[1;35r[33;1HLICENSE      fs.img[10Ctypescript[14Cxv6.out.pingpong[34m^^[34;1HM[m[35;53H[K[35;53H59,22[9C47%[28;22H[?25h[?25l[35;43H~@k[28;22H[35;43H   [29;19H[35;53H60,19[29;19H[?25h[?25l[35;43H~@k[29;19H[35;43H   [27;22H[1;34r[1;1H[3M[1;35r[32;1HMakefile     [34m^[[m[0m[34m^[[m[01;32mgrade-lab-util[34m^[[m[0m  [34m^[[m[01;34muser[34m^[[m[0m     [33;1H [15Cxv6.out.primes[34m^M[m
+README[7Cgradelib.py     xv6.out[17Cxv6.out.xargs[34m^M[m[35;53H[K[35;53H61,20-22      51%[27;22H[?25h[?25l[35;43H~@k[27;22H[35;43H   [28;22H[1;34r[1;1H[2M[1;35r[33;1H[34m^[[m[01;34m__pycache__[34m^[[m[0m  [34m^[[m[01;34mkernel[34m^[[m[0m[10Cxv6.out.find__[34;1Hcurdir[34m^M[m[35;53H[K[35;53H62,22[9C53%[28;22H[?25h[?25l[35;43H~@k[28;22H[35;43H   [28;22H[1;34r[1;1H[2M[1;35r[33;1H[34m^[[m[01;34mconf[34m^[[m[0m[9C[34m^[[m[01;34mmkfs[34m^[[m[0m[12Cxv6.out.find__[34;1Hrecursive[34m^M[m[35;53H[K[35;53H63,20-22      55%[28;22H[?25h[?25l[35;43H~@k[28;22H[35;43H   [28;22H[1;34r[1;1H[2M[1;35r[33;1H[34m^[[m]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[34m^G^[[m[01;32mmayujia@LAPP[34;1HTOP-PDSLMIND[34m^[[m[00m:[34m^[[m[01;34m~/os/xv6-labs-2021[34m^[[m[00m$ vim typescript[34m^M[m[35;53H[K[35;53H64,22[9C57%[28;22H[?25h[?25l[35;43H~@k[28;22H[35;43H   [29;21H[35;54H5,20-21[29;21H[?25h[?25l[35;43H~@k[29;21H[35;43H   [31;22H[35;54H6,20-22[31;22H[?25h[?25l[35;43H~@k[31;22H[35;43H   [33;22H[35;54H7,21[33;22H[?25h[?25l[35;43H~@k[33;22H[35;43H   [1;22H[27m[23m[29m[m[H[2J[1;1H[34m^[[m[?1049h[34m^[[m[22;0;0t[34m^[[m[>4;2m[34m^[[m[?1h[34m^[[m=[34m^[[m[?2004h[34m^[[m[1;35r[34m^[[m[?12h[34m^[[m[?12l[34m^[[m[[[2;1H22;2t[34m^[[m[22;1t[34m^[[m[27m[34m^[[m[23m[34m^[[m[29m[34m^[[m[m[34m^[[m[H[34m^[[m[2J[34m^[[m[?25l[34m^[[m[35;1H"typescriptt[3;1H" 0L, 0C[34m^[[m[2;1H▽[3;17H[34m^[[m[6n[34m^[[m[2;1H  [34m^[[m[1;1H[34m^[[m[>c[34m^[[m]10;?[34m^G^[[m]11;?[34m^G^[[m[2;1H[34m^[[m[[[4;1H94m~[65C  [5;1H   [34m^[[m[3;1H~[58C  [6;1H [9C[34m^[[m[4;1H~[51C  [7;1H [16C[34m^[[m[5;1H~[44C  [8;1H [23C[34m^[[m[6;1H~[37C  [9;1H [30C[34m^[[m[7;1H~[30C  [10;1H [37C[34m^[[m[8;1H~[23C  [11;1H [44C[34m^[[m[9;1H~[16C  [12;1H [51C[34m^[[m[10;1H~[8C  [13;1H [59C[34m^[[m[11;1H~  [14;1H [67C[34m^[[[m[15;1H[12;1H~[62C  [16;1H      [34m^[[m[13;1H~[54C  [17;1H [13C[34m^[[m[14;1H~[46C  [18;1H [21C[34m^[[m[15;1H~[38C  [19;1H [29C[34m^[[m[16;1H~[30C  [20;1H [37C[34m^[[m[17;1H~[22C  [21;1H [45C[34m^[[m[18;1H~[14C  [22;1H [53C[34m^[[m[19;1H~        [23;1H [61C[34m^[[m[20;1HH[24;1H~[68C  [25;1H[34m^[[m[21;1H~[60C  [26;1H [7C[34m^[[m[22;1H~[52C  [27;1H [15C[34m^[[m[23;1H~[44C  [28;1H [23C[34m^[[m[24;1H~[36C  [29;1H [31C[34m^[[m[25;1H~[28C  [30;1H [39C[34m^[[m[26;1H~[20C  [31;1H [47C[34m^[[m[27;1H~[12C  [32;1H [55C[34m^[[m[28;1H~      [33;1H [63C[34m^[[m[29;;[34;1H1H~[35;53H68,19-22      70%[1;22H[?25h[?25l[35;43H~@k[1;22H[35;43H   [1;22H[27m[23m[29m[m[H[2J[1;1H[34m^[[m[?1049h[34m^[[m[22;0;0t[34m^[[m[>4;2m[34m^[[m[?1h[34m^[[m=[34m^[[m[?2004h[34m^[[m[1;35r[34m^[[m[?12h[34m^[[m[?12l[34m^[[m[[[2;1H22;2t[34m^[[m[22;1t[34m^[[m[27m[34m^[[m[23m[34m^[[m[29m[34m^[[m[m[34m^[[m[H[34m^[[m[2J[34m^[[m[?25l[34m^[[m[35;1H"typescriptt[3;1H" [noeol] 68L, 4096C[34m^[[m[2;1H▽[3;29H[34m^[[m[6n[34m^[[m[2;1H  [34m^[[m[1;1H[34m^[[m[>c[34m^[[m]10;?[34m^G^[[m]11;??[4;1H[34m^G^[[m[1;1HScript started on 2023-09-03 11:19:11+08:00 [TERM="xterm-256cc[5;1Holor" TTYY[34m^[[m[2;1H="/dev/pts/2" COLUMNS="70" LINES="35"][34m^M
+^[[m[34m^[[34m^[[m[m]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[34m^[[m[34m^G^[[34m^[[[m[7;1H[m[01;32mmayujia@LAPP[34m^[[m[4;1HTOP-PDSLMIND[34m^[[m[34m^[[34m^[[m[m[00m:[34m^[[m[34m^[[34m^[[m[m[[[8;1H01;34m~/os/xv6-labs-2021[34m^[[m[34m^[[34m^[[m[m[00m$ cat typescript[34m^[[m[34m^HH[34m^[[m[5;;[9;1H1H^H^H^H^H^H^H^H^H^H^H^H^H^H[34m^[[m[mb[34m^[[m[34m^[[34m^[[m[m[C[34m^[[m[34m^[[34m^[[m[m[C[34m^[[m[34m^[[34m^^[10;1H[[m[m[C[34m^[[m[34m^[[34m^[[m[m[C[34m^[[m[34m^[[34m^[[m[m[C[34m^[[m[34m^[[34m^[[m[m[C[34m^[[m[34m^[[34m^[[m[m[C[34m^[[m[34m^[[34m^^[11;1H[[m[m[C[34m^[[m[34m^[[34m^[[m[m[C[34m^[[m[34m^[[34m^[[m[m[C[34m^[[m[34m^[[34m^[[m[m[[[34m^[[m[6;1HC[34m^[[m[34m^[[34m^[[m[m[C[34m^^[12;1H[[m[34m^[[34m^[[m[m[C[34m^[[m[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H[34m^[[m[mls[34m^[[m[34m^[[34m^[[m[m[K[34m^[[m[[[13;1H34m^H^H[34m^[[m[mmake qemu[34m^[[m[34m^H^H^H^H^H^H^HH[34m^[[m[7;1H^H^H^[[34m^[[m[m[4Pcd ..[34m^[[m[33[14;1H4m^H^H^H^H^H[34m^[[m[mmake qemu[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m  [16;1H [34m^[[m[9;1H128M -smp 3 -nographic -drive file=fs.img,if=none,format=raw,ii[17;1Hd=x0 -dee[34m^[[m[10;1Hvice virtio-blk-device,drive=x0,bus=virtio-mmio-bus.00[18;1H[34m^[[m[34m^M[34m^M[m
+^M[34m^[[m[m[34m^M[m
+xv6 kernel is booting[34m^[[m[34m^M[34m^M[m
+^M[34m^[[m[m[34m^M[m
+hart 1 starting[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+hart 2 starting[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+init: starting sh[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+$ ls[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+.[34m^[[m[14C1 1 1024[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+..[34m^[[m[13C1 1 1024[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+README[34m^[[m[9C2 2 2226[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+xargstest.sh   2 3 93[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+cat[34m^[[m[12C2 4 23904[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+echo[34m^[[m[11C2 5 22736[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+forktest[34m^[[m[7C2 6 13088[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+grep[34m^[[m[11C2 7 27256[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+init[34m^[[m[11C2 8 23832[34m^[[m[34m^M[34m^[[m[m[34m^M[m[35;53H69,19-22      88%[1;22H[?25h[?25l[35;43H~@k[1;22H[35;43H   [6;22H[35;53H70,20[6;22H[?25h[?25l[35;43H~@k[6;22H[35;43H   [15;22H[35;54H1,22   [15;22H[?25h[?25l[35;43H~@k[15;22H[35;43H   [19;7H[35;54H2,6-7[19;7H[?25h[?25l[35;43H~@k[19;7H[35;43H   [20;22H[35;54H3,22 [20;22H[?25h[?25l[35;43H~@k[20;22H[35;43H   [21;7H[35;54H4,6-7[21;7H[?25h[?25l[35;43H~@k[21;7H[35;43H   [22;22H[35;54H5,21-22[22;22H[?25h[?25l[35;43H~@k[22;22H[35;43H   [23;22H[35;54H6[23;22H[?25h[?25l[35;43H~@k[23;22H[35;43H   [24;22H[35;54H7[24;22H[?25h[?25l[35;43H~@k[24;22H[35;43H   [25;17H[35;54H8,15-17[25;17H[?25h[?25l[35;43H~@k[25;17H[35;43H   [26;22H[35;54H9,20-22[26;22H[?25h[?25l[35;43H~@k[26;22H[35;43H   [27;22H[35;53H80[27;22H[?25h[?25l[35;43H~@k[27;22H[35;43H   [28;22H[35;54H1[28;22H[?25h[?25l[35;43H~@k[28;22H[35;43H   [29;22H[35;54H2,22   [29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [25;22H[1;34r[1;1H[5M[1;35r[30;1Hkill[34m^[[m[11C2 9 22704[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+ln[34m^[[m[13C2 10 22656[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+ls[34m^[[m[13C2 11 26136[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+mkdir[34m^[[m[10C2 12 22800[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+rm[34m^[[m[13C2 13 22792[34m^[[m[34m^M[34m^[[m[m[34m^M[m[35;53H[K[35;53H83,20-22      94%[25;22H[?25h[?25l[35;43H~@k[25;22H[35;43H   [26;22H[35;54H4[26;22H[?25h[?25l[35;43H~@k[26;22H[35;43H   [27;22H[35;54H5,21[27;22H[?25h[?25l[35;43H~@k[27;22H[35;43H   [28;22H[35;54H6,20[28;22H[?25h[?25l[35;43H~@k[28;22H[35;43H   [29;22H[35;54H7[29;22H[?25h[?25l[35;43H~@k[29;22H[35;43H   [21;22H[1;34r[1;1H[9M[1;35r[26;1Hsh[34m^[[m[13C2 14 41672[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+stressfs[34m^[[m[7C2 15 23808[34m^[[m[34m^M[34m^[[m[m[34m^M[m
+usertests      2 16 156016[34m^[[m[34m^M[34m^[[m[m[34m^[[m[35;53H1,1[34m^[[m[11CTop[34m^[[m[1;1H[34m^[[m[??[29;1H25h[34m^[[m[?25l[34m^[[m[35;43H^[[34m^[[m[1;1H[34m^[[m[35;45H[[34m^[[m[1;1H[34m^[[m[35;46H>[34m^[[m[1;1H[34m^[[m[35;477[30;1HH0[34m^[[m[1;1H[34m^[[m[35;48H;[34m^[[m[1;1H[34m^[[m[35;49H1[34m^[[m[1;1H[34m^[[m[35;50H0[34m^[[m[1;1H[34m^[[m[35;51H;;[31;1H[34m^[[m[1;1H[34m^[[m[35;43H[9C[34m^[[m[1;1H[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[35;43H^A[34m^[[m[1;1H[34m^[[m[35;;[32;1H43H  [34m^[[m[1;22H4[34m^[[m[47CYY[34m^[[m[2;1H=[34m^[[m[35;55H22[34m^[[m[1;22H[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[35;44[33;1H3H:[34m^[[m[1;22H[34m^[[m[35;1H[34m^[[m[K[34m^[[m[35;1H:[34m^[[m[?2004h[34m^[[m[?25hq[34m^M^[[m[?25l[34m^[[m[97m[34m^[[m[41mm[34;1HE37: No write since last change (add ! to override)[34m^[[m[?2004h[34m^[[m[m[34m^M^M[m[35;53H[K[35;53H88,20-22      98%[21;22H[?25h[?25l[35;43H~@k[21;22H[35;43H   [22;22H[35;54H9[22;22H[?25h[?25l[35;43H~@k[22;22H[35;43H   [23;22H[35;53H90[23;22H[?25h[?25l[35;43H~@k[23;22H[35;43H   [24;22H[35;54H1,21[24;22H[?25h[?25l[35;43H~@k[24;22H[35;43H   [25;22H[35;54H2,20[25;22H[?25h[?25l[35;43H~@k[25;22H[35;43H   [26;22H[35;54H3[26;22H[?25h[?25l[35;43H~@k[26;22H[35;43H   [27;22H[35;54H4,21[27;22H[?25h[?25l[35;43H~@k[27;22H[35;43H   [23;22H[1;34r[1;1H[5M[1;35r[30;1H[34m^[[m[32mPress ENTER or type command to continue[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[1;22H[34m^[[m[[[31;1Hm[34m^[[m[35;43H:[34m^[[m[1;22H[34m^[[m[35;1H[34m^[[m[K[34m^[[m[35;1H:[34m^[[m[?2004h[34m^[[m[?25hq![34m^M^[[m[?25l[34m^[[m[[[32;1H?2004l[34m^[[m[23;2t[34m^[[m[23;1t[34m^[[m[35;1H[34m^[[m[K[34m^[[m[35;1H[34m^[[m[?2004l[34m^[[m[?1l[34m^[[m>[34m^[[m[?25h[34m^[[m[[[33;1H>4;m[34m^[[m[?1049l[34m^[[m[23;0;0t[34m^[[m]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2022[34;1H1[34m^G^[[m[35;53H[K[35;53H95,22[9CBot[23;22H[?25h[?25l[35;43H~@k[23;22H[35;43H   [30;22H[35;54H6,21-22[30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H~@k[30;22H[35;43H   [30;22H[?25h[?25l[35;43H^[[30;22H[35;43H  [30;22H[35;43H^[[30;22H[35;43H  [30;22H[?25h[?25l[35;43H:[30;22H[35;43H[K[35;1H:[?2004h[?25hq[?25l[?2004l[23;2t[23;1t[35;1H[K[35;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ vim typescriptls[Kmake qemu
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o user/sleep.o user/sleep.c
+riscv64-linux-gnu-ld -z max-page-size=4096 -N -e main -Ttext 0 -o user/_sleep user/sleep.o user/ulib.o user/usys.o user/printf.o user/umalloc.o
+riscv64-linux-gnu-objdump -S user/_sleep > user/sleep.asm
+riscv64-linux-gnu-objdump -t user/_sleep | sed '1,/SYMBOL TABLE/d; s/ .* / /; /^$/d' > user/sleep.sym
+mkfs/mkfs fs.img README  user/xargstest.sh user/_cat user/_echo user/_forktest user/_grep user/_init user/_kill user/_ln user/_ls user/_mkdir user/_rm user/_sh user/_stressfs user/_usertests user/_grind user/_wc user/_zombie user/_sleep 
+nmeta 46 (boot, super, log blocks 30 inode blocks 13, bitmap blocks 1) blocks 954 total 1000
+balloc: first 623 blocks have been allocated
+balloc: write bitmap block at sector 45
+qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m 128M -smp 3 -nographic -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+init: starting sh
+$ QEMU: Terminated
+]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ vim Makefile 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"Makefile" 409L, 9471C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[35mifneq[m ([36m$(V)[m,@)
+[36mGRADEFLAGS [m+= -v
+[35mendif[m
+
+[36mprint-gdbport:[m
+[35m        @[m[31mecho [m[36m$(GDBPORT)
+
+grade:[m
+[35m        @[m[31mecho [m[36m$(MAKE)[m[31m clean[m
+[35m        @[m[36m$(MAKE)[m[31m clean || [m[35m\[m
+[31m          (echo "'make clean' failed.  HINT: Do you have another runnii[13;1Hng instance of xv6?" && exit 1)
+        ./grade-lab-[m[36m$(LAB)[m[31m [m[36m$(GRADEFLAGS)[m
+
+[34m##
+## FOR web handin
+##[m
+
+
+[36mWEBSUB [m:= https://6828.scripts.mit.edu/2021/handin.py
+
+[36mhandin:[m tarball-pref myapi.key
+[35m        @[m[31mSUF=[m[36m$(LAB)[m[31m; [m[35m\[m
+[31m        curl -f -F file=@lab-[m[36m$$[m[31mSUF-handin.tar.gz -F key=\<myapi.key [m[36m$(([26;1HWEBSUB)[m[31m/upload [m[35m\[m
+[31m            > /dev/null || { [m[35m\[m
+[31m                echo ; [m[35m\[m
+[31m                echo Submit seems to have failed.; [m[35m\[m
+[31m                echo Please go to [m[36m$(WEBSUB)[m[31m/ and upload the tarball maa[31;1Hnually.; }[m
+
+[36mhandin-check:[m
+[35m        @[m[31mif ! test -d .git; then [m[35m\[m[35;53H340,17[8C85%[17;17H[?25h[?25l[35;43H~@k[17;17H[35;43H   [18;2H[35;55H1,2 [18;2H[?25h[?25l[35;43H/[18;2H[35;1H[K[35;1H/[?2004h[?25hU[?25l[21;5H[7m[36mU[m[35;53H344,5[9C85%[35;53H[K[35;3H[?25hP[?25l[27m[23m[29m[m[H[2J[1;1H[31m        fi[m
+[35m        @[m[31mif ! git diff-files --quiet || ! git diff-index --quiet --cacc[3;1Hhed HEAD; then [m[35m\[m
+[31m                git status -s; [m[35m\[m
+[31m                echo; [m[35m\[m
+[31m                echo "You have uncomitted changes.  Please commit or ss[7;1Htash them."; [m[35m\[m
+[31m                false; [m[35m\[m
+[31m        fi[m
+[35m        @[m[31mif test -n "`git status -s`"; then [m[35m\[m
+[31m                git status -s; [m[35m\[m
+[31m                read -p "Untracked files will not be handed in.  Contii[13;1Hnue? [y/N] " r; [m[35m\[m
+[31m                test "[m[36m$$[m[31mr" = y; [m[35m\[m
+[31m        fi[m
+
+[7m[36mUP[m[36mSTREAM [m:= [36m$([m[38;5;130mshell[m[36m git remote -v | grep -m 1 [m[31m"xv6-labs-2021"[m[36m | awk [m[31m'{{[18;1Hsplit([m[36m$$[m[31m0,a," "); print a[1]}'[m[36m)
+
+tarball:[m handin-check
+[31m        git archive --format=tar HEAD | gzip > lab-[m[36m$(LAB)[m[31m-handin.tar.gg[22;1Hz[m
+
+[36mtarball-pref:[m handin-check
+[35m        @[m[31mSUF=[m[36m$(LAB)[m[31m; [m[35m\[m
+[31m        git archive --format=tar HEAD > lab-[m[36m$$[m[31mSUF-handin.tar; [m[35m\[m
+[31m        git diff [m[36m$(UPSTREAM)[m[31m/[m[36m$(LAB)[m[31m > /tmp/lab-[m[36m$$[m[31mSUF-diff.patch; [m[35m\[m
+[31m        tar -rf lab-[m[36m$$[m[31mSUF-handin.tar /tmp/lab-[m[36m$$[m[31mSUF-diff.patch; [m[35m\[m
+[31m        gzip -c lab-[m[36m$$[m[31mSUF-handin.tar > lab-[m[36m$$[m[31mSUF-handin.tar.gz; [m[35m\[m
+[31m        rm lab-[m[36m$$[m[31mSUF-handin.tar; [m[35m\[m
+[31m        rm /tmp/lab-[m[36m$$[m[31mSUF-diff.patch; \[m
+
+[36mmyapi.key:[m
+[35m        @[m[31mecho Get an API key for yourself by visiting [m[36m$(WEBSUB)[m[31m/[m[35;53H376,1[9C95%/UP[35;53H[K[35;4H[?25hR[?25l[27m[23m[29m[m[H[2J[1;1H[31m        [m[34m# in order to be able to max out the proc table.[m
+[31m        [m[36m$(LD)[m[31m [m[36m$(LDFLAGS)[m[31m -N -e main -Ttext 0 -o [m[36m$U[m[31m/_forktest [m[36m$U[m[31m/forktee[3;1Hst.o [m[36m$U[m[31m/ulib.o [m[36m$U[m[31m/usys.o
+        [m[36m$(OBJDUMP)[m[31m -S [m[36m$U[m[31m/_forktest > [m[36m$U[m[31m/forktest.asm[m
+
+[36mmkfs/mkfs:[m mkfs/mkfs.c [36m$K[m/fs.h [36m$K[m/param.h
+[31m        gcc [m[36m$(XCFLAGS)[m[31m -Werror -Wall -I. -o mkfs/mkfs mkfs/mkfs.c[m
+
+[34m# Prevent deletion of intermediate files, e.g. cat.o, after first buill[10;1Hd, so
+# that disk image changes after first build are persistent until cleann[12;1H.  More
+# details:
+# http://www.gnu.org/software/make/manual/html_node/Chained-Rules.html[m[15;1H[38;5;130m.PRECIOUS:[m [36m%[m.o
+
+[7m[36mUPR[m[36mOGS[m=[35m\
+        [m[36m$U[m/_cat[35m\
+        [m[36m$U[m/_echo[35m\
+        [m[36m$U[m/_forktest[35m\
+        [m[36m$U[m/_grep[35m\
+        [m[36m$U[m/_init[35m\
+        [m[36m$U[m/_kill[35m\
+        [m[36m$U[m/_ln[35m\
+        [m[36m$U[m/_ls[35m\
+        [m[36m$U[m/_mkdir[35m\
+        [m[36m$U[m/_rm[35m\
+        [m[36m$U[m/_sh[35m\
+        [m[36m$U[m/_stressfs[35m\
+        [m[36m$U[m/_usertests[35m\
+        [m[36m$U[m/_grind[35m\
+        [m[36m$U[m/_wc[35m\
+        [m[36m$U[m/_zombie[35m\
+        [m[36m$U[m/_sleep[35m\[m[35;53H179,1[9C43%/UPR[35;53H[K[35;5H[?25h[?25l[35;4H[K[27m[23m[29m[m[H[2J[1;1H[31m        fi[m
+[35m        @[m[31mif ! git diff-files --quiet || ! git diff-index --quiet --cacc[3;1Hhed HEAD; then [m[35m\[m
+[31m                git status -s; [m[35m\[m
+[31m                echo; [m[35m\[m
+[31m                echo "You have uncomitted changes.  Please commit or ss[7;1Htash them."; [m[35m\[m
+[31m                false; [m[35m\[m
+[31m        fi[m
+[35m        @[m[31mif test -n "`git status -s`"; then [m[35m\[m
+[31m                git status -s; [m[35m\[m
+[31m                read -p "Untracked files will not be handed in.  Contii[13;1Hnue? [y/N] " r; [m[35m\[m
+[31m                test "[m[36m$$[m[31mr" = y; [m[35m\[m
+[31m        fi[m
+
+[7m[36mUP[m[36mSTREAM [m:= [36m$([m[38;5;130mshell[m[36m git remote -v | grep -m 1 [m[31m"xv6-labs-2021"[m[36m | awk [m[31m'{{[18;1Hsplit([m[36m$$[m[31m0,a," "); print a[1]}'[m[36m)
+
+tarball:[m handin-check
+[31m        git archive --format=tar HEAD | gzip > lab-[m[36m$(LAB)[m[31m-handin.tar.gg[22;1Hz[m
+
+[36mtarball-pref:[m handin-check
+[35m        @[m[31mSUF=[m[36m$(LAB)[m[31m; [m[35m\[m
+[31m        git archive --format=tar HEAD > lab-[m[36m$$[m[31mSUF-handin.tar; [m[35m\[m
+[31m        git diff [m[36m$(UPSTREAM)[m[31m/[m[36m$(LAB)[m[31m > /tmp/lab-[m[36m$$[m[31mSUF-diff.patch; [m[35m\[m
+[31m        tar -rf lab-[m[36m$$[m[31mSUF-handin.tar /tmp/lab-[m[36m$$[m[31mSUF-diff.patch; [m[35m\[m
+[31m        gzip -c lab-[m[36m$$[m[31mSUF-handin.tar > lab-[m[36m$$[m[31mSUF-handin.tar.gz; [m[35m\[m
+[31m        rm lab-[m[36m$$[m[31mSUF-handin.tar; [m[35m\[m
+[31m        rm /tmp/lab-[m[36m$$[m[31mSUF-diff.patch; \[m
+
+[36mmyapi.key:[m
+[35m        @[m[31mecho Get an API key for yourself by visiting [m[36m$(WEBSUB)[m[31m/[m[35;53H376,1[9C95%/UP[35;53H[K[35;4H[?25h[?25l[35;3H[K[27m[23m[29m[m[H[2J[2;1H[35mifneq[m ([36m$(V)[m,@)
+[36mGRADEFLAGS [m+= -v
+[35mendif[m
+
+[36mprint-gdbport:[m
+[35m        @[m[31mecho [m[36m$(GDBPORT)
+
+grade:[m
+[35m        @[m[31mecho [m[36m$(MAKE)[m[31m clean[m
+[35m        @[m[36m$(MAKE)[m[31m clean || [m[35m\[m
+[31m          (echo "'make clean' failed.  HINT: Do you have another runnii[13;1Hng instance of xv6?" && exit 1)
+        ./grade-lab-[m[36m$(LAB)[m[31m [m[36m$(GRADEFLAGS)[m
+
+[34m##
+## FOR web handin
+##[m
+
+
+[36mWEBS[m[7m[36mU[m[36mB [m:= https://6828.scripts.mit.edu/2021/handin.py
+
+[36mhandin:[m tarball-pref myapi.key
+[35m        @[m[31mSUF=[m[36m$(LAB)[m[31m; [m[35m\[m
+[31m        curl -f -F file=@lab-[m[36m$$[m[31mSUF-handin.tar.gz -F key=\<myapi.key [m[36m$(([26;1HWEBSUB)[m[31m/upload [m[35m\[m
+[31m            > /dev/null || { [m[35m\[m
+[31m                echo ; [m[35m\[m
+[31m                echo Submit seems to have failed.; [m[35m\[m
+[31m                echo Please go to [m[36m$(WEBSUB)[m[31m/ and upload the tarball maa[31;1Hnually.; }[m
+
+[36mhandin-check:[m
+[35m        @[m[31mif ! test -d .git; then [m[35m\[m[35;53H344,5[9C85%/U[35;53H[K[35;3H[?25hp[?25l[21;5H[36mU[m[35;53H341,2[9C85%[35;53H[K[35;4H[?25h[?25l[35;3H[K[21;5H[7m[36mU[m[35;53H344,5[9C85%[35;53H[K[35;3H[?25hp[?25l[21;5H[36mU[m[35;53H341,2[9C85%[35;53H[K[35;4H[?25h[?25l[35;3H[K[21;5H[7m[36mU[m[35;53H344,5[9C85%[35;53H[K[35;3H[?25hP[?25l[27m[23m[29m[m[H[2J[1;1H[31m        fi[m
+[35m        @[m[31mif ! git diff-files --quiet || ! git diff-index --quiet --cacc[3;1Hhed HEAD; then [m[35m\[m
+[31m                git status -s; [m[35m\[m
+[31m                echo; [m[35m\[m
+[31m                echo "You have uncomitted changes.  Please commit or ss[7;1Htash them."; [m[35m\[m
+[31m                false; [m[35m\[m
+[31m        fi[m
+[35m        @[m[31mif test -n "`git status -s`"; then [m[35m\[m
+[31m                git status -s; [m[35m\[m
+[31m                read -p "Untracked files will not be handed in.  Contii[13;1Hnue? [y/N] " r; [m[35m\[m
+[31m                test "[m[36m$$[m[31mr" = y; [m[35m\[m
+[31m        fi[m
+
+[7m[36mUP[m[36mSTREAM [m:= [36m$([m[38;5;130mshell[m[36m git remote -v | grep -m 1 [m[31m"xv6-labs-2021"[m[36m | awk [m[31m'{{[18;1Hsplit([m[36m$$[m[31m0,a," "); print a[1]}'[m[36m)
+
+tarball:[m handin-check
+[31m        git archive --format=tar HEAD | gzip > lab-[m[36m$(LAB)[m[31m-handin.tar.gg[22;1Hz[m
+
+[36mtarball-pref:[m handin-check
+[35m        @[m[31mSUF=[m[36m$(LAB)[m[31m; [m[35m\[m
+[31m        git archive --format=tar HEAD > lab-[m[36m$$[m[31mSUF-handin.tar; [m[35m\[m
+[31m        git diff [m[36m$(UPSTREAM)[m[31m/[m[36m$(LAB)[m[31m > /tmp/lab-[m[36m$$[m[31mSUF-diff.patch; [m[35m\[m
+[31m        tar -rf lab-[m[36m$$[m[31mSUF-handin.tar /tmp/lab-[m[36m$$[m[31mSUF-diff.patch; [m[35m\[m
+[31m        gzip -c lab-[m[36m$$[m[31mSUF-handin.tar > lab-[m[36m$$[m[31mSUF-handin.tar.gz; [m[35m\[m
+[31m        rm lab-[m[36m$$[m[31mSUF-handin.tar; [m[35m\[m
+[31m        rm /tmp/lab-[m[36m$$[m[31mSUF-diff.patch; \[m
+
+[36mmyapi.key:[m
+[35m        @[m[31mecho Get an API key for yourself by visiting [m[36m$(WEBSUB)[m[31m/[m[35;53H376,1[9C95%/UP[35;53H[K[35;4H[?25hR[?25l[27m[23m[29m[m[H[2J[1;1H[31m        [m[34m# in order to be able to max out the proc table.[m
+[31m        [m[36m$(LD)[m[31m [m[36m$(LDFLAGS)[m[31m -N -e main -Ttext 0 -o [m[36m$U[m[31m/_forktest [m[36m$U[m[31m/forktee[3;1Hst.o [m[36m$U[m[31m/ulib.o [m[36m$U[m[31m/usys.o
+        [m[36m$(OBJDUMP)[m[31m -S [m[36m$U[m[31m/_forktest > [m[36m$U[m[31m/forktest.asm[m
+
+[36mmkfs/mkfs:[m mkfs/mkfs.c [36m$K[m/fs.h [36m$K[m/param.h
+[31m        gcc [m[36m$(XCFLAGS)[m[31m -Werror -Wall -I. -o mkfs/mkfs mkfs/mkfs.c[m
+
+[34m# Prevent deletion of intermediate files, e.g. cat.o, after first buill[10;1Hd, so
+# that disk image changes after first build are persistent until cleann[12;1H.  More
+# details:
+# http://www.gnu.org/software/make/manual/html_node/Chained-Rules.html[m[15;1H[38;5;130m.PRECIOUS:[m [36m%[m.o
+
+[7m[36mUPR[m[36mOGS[m=[35m\
+        [m[36m$U[m/_cat[35m\
+        [m[36m$U[m/_echo[35m\
+        [m[36m$U[m/_forktest[35m\
+        [m[36m$U[m/_grep[35m\
+        [m[36m$U[m/_init[35m\
+        [m[36m$U[m/_kill[35m\
+        [m[36m$U[m/_ln[35m\
+        [m[36m$U[m/_ls[35m\
+        [m[36m$U[m/_mkdir[35m\
+        [m[36m$U[m/_rm[35m\
+        [m[36m$U[m/_sh[35m\
+        [m[36m$U[m/_stressfs[35m\
+        [m[36m$U[m/_usertests[35m\
+        [m[36m$U[m/_grind[35m\
+        [m[36m$U[m/_wc[35m\
+        [m[36m$U[m/_zombie[35m\
+        [m[36m$U[m/_sleep[35m\[m[35;53H179,1[9C43%/UPR[35;53H[K[35;5H[?25h[?25l[31msearch hit BOTTOM, continuing at TOP[17;1H[m[36mUPR[m[35;53H179,1[9C43%[35;53H[K[35;53H179,1[9C43%[17;1H[?25h[?25l[35;43H:[17;1H[35;1H[K[35;1H:[?2004h[?25h [?25l[17;1H[35;53H179,1[9C43%[17;1H[?25h[?25l[35;43Hi[17;1H[35;43H [17;1H[35;1H[1m-- INSERT --[m[35;53H[K[35;53H179,1[9C43%[17;1H[?25h[?25l[35;54H80[18;1H[?25h[?25l[35;55H1[19;1H[?25h[?25l[35;55H2[20;1H[?25h[?25l[35;55H3[21;1H[?25h[?25l[35;55H4[22;1H[?25h[?25l[35;55H5[23;1H[?25h[?25l[35;55H6[24;1H[?25h[?25l[35;55H7[25;1H[?25h[?25l[35;55H8[26;1H[?25h[?25l[35;55H9[27;1H[?25h[?25l[35;54H90[28;1H[?25h[?25l[35;55H1[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[35;53H[K[35;53H192,1[9C43%[29;1H[?25h[?25l[1;34r[1;1H[2M[1;35r[35;53H[K[35;53H193,1[9C44%[28;1H[?25h[?25l[35;55H4[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[35mifeq[m ([36m$(LAB)[m,[36m$([m[38;5;130mfilter[m[36m $(LAB), pgtbl lock)[m)[35;53H[K[35;53H195,1[9C44%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[36mUPROGS [m+= [35m\[m[35;53H[K[35;53H196,1[9C44%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[35m        [m[36m$U[m/_stats[35;53H[K[35;53H197,1[9C45%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[35mendif[m[35;53H[K[35;53H198,1[9C45%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[35;53H[K[35;53H199,1[9C45%[29;1H[?25h[?25l[1;34r[1;1H[2M[1;35r[33;1H[35mifeq[m ([36m$(LAB)[m,traps)
+[36mUPROGS [m+= [35m\[m[35;53H[K[35;53H200,1[9C46%[28;1H[?25h[?25l[35;55H1[29;1H[?25h[?25l[1;34r[1;1H[2M[1;35r[33;1H[35m        [m[36m$U[m/_call[35m\
+        [m[36m$U[m/_bttest[35;53H[K[35;53H202,1[9C46%[28;1H[?25h[?25l[35;55H3[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[35mendif[m[35;53H[K[35;53H204,1[9C46%[29;1H[?25h[?25l[35;55H3[28;1H[?25h[?25l[35;55H2[27;1H[?25h[?25l[35;55H1[26;1H[?25h[?25l[35;55H0[25;1H[?25h[?25l[35;53H199[24;1H[?25h[?25l[35;55H8[23;1H[?25h[?25l[35;55H7[22;1H[?25h[?25l[35m [m[35;57H2[22;2H[?25h[?25l[35m [m[35;57H3[22;3H[?25h[?25l[35m [m[35;57H4[22;4H[?25h[?25l[35m [m[35;57H5[22;5H[?25h[?25l[35m [m[35;57H6[22;6H[?25h[?25l[35m [m[35;57H7[22;7H[?25h[?25l[35m [m[35;57H8[22;8H[?25h[?25l[35m [m[35;57H9[22;9H[?25h[?25l$[35;57H10[22;10H[?25h[?25l[36m$U[m[35;58H1[22;11H[?25h[?25l/[35;58H2[22;12H[?25h[?25l_[35;58H3[22;13H[?25h[?25lp[35;58H4[22;14H[?25h[?25li[35;58H5[22;15H[?25h[?25ln[35;58H6[22;16H[?25h[?25lg[35;58H7[22;17H[?25h[?25lp[35;58H8[22;18H[?25h[?25lo[35;58H9[22;19H[?25h[?25lm[35;57H20[22;20H[?25h[?25ln[35;58H1[22;21H[?25h[?25l[22;20H[K[35;58H0[22;20H[?25h[?25l[22;19H[K[35;57H19[22;19H[?25h[?25ln[35;57H20[22;20H[?25h[?25lg[35;58H1[22;21H[?25h[?25l[35m\[m[35;58H2[22;22H[?25h[35;1H[K[22;21H[?25l[35;43H^[[22;21H[35;43H  [22;22H[35;53H197,21[8C46%[22;21H[?25h[?25l[35;43H:[22;21H[35;43H[K[35;1H:[?2004h[?25hwq[?25l[?2004l"Makefile" 409L, 9492C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ vim Makefile [4Pmake qemuvim typescript[5Pmake qemu
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o user/pingpong.o user/pingpong.c
+[01m[Kuser/pingpong.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kuser/pingpong.c:16:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuf[m[K’ undeclared (first use in this function); did you mean ‘[01m[Kbuf2[m[K’?
+   16 |     read(p[0], [01;31m[Kbuf[m[K, 5);
+      |                [01;31m[K^~~[m[K
+      |                [32m[Kbuf2[m[K
+[01m[Kuser/pingpong.c:16:16:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kuser/pingpong.c:13:20:[m[K [01;31m[Kerror: [m[Kunused variable ‘[01m[Kbuf2[m[K’ [[01;31m[K-Werror=unused-variable[m[K]
+   13 |   char buf1[1024], [01;31m[Kbuf2[m[K[1024];
+      |                    [01;31m[K^~~~[m[K
+[01m[Kuser/pingpong.c:13:8:[m[K [01;31m[Kerror: [m[Kunused variable ‘[01m[Kbuf1[m[K’ [[01;31m[K-Werror=unused-variable[m[K]
+   13 |   char [01;31m[Kbuf1[m[K[1024], buf2[1024];
+      |        [01;31m[K^~~~[m[K
+cc1: all warnings being treated as errors
+make: *** [<builtin>: user/pingpong.o] Error 1
+]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ make qemu
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie   -c -o user/pingpong.o user/pingpong.c
+riscv64-linux-gnu-ld -z max-page-size=4096 -N -e main -Ttext 0 -o user/_pingpong user/pingpong.o user/ulib.o user/usys.o user/printf.o user/umalloc.o
+riscv64-linux-gnu-objdump -S user/_pingpong > user/pingpong.asm
+riscv64-linux-gnu-objdump -t user/_pingpong | sed '1,/SYMBOL TABLE/d; s/ .* / /; /^$/d' > user/pingpong.sym
+mkfs/mkfs fs.img README  user/xargstest.sh user/_cat user/_echo user/_forktest user/_grep user/_init user/_kill user/_ln user/_ls user/_mkdir user/_rm user/_sh user/_stressfs user/_usertests user/_grind user/_wc user/_zombie user/_sleep user/_pingpong 
+nmeta 46 (boot, super, log blocks 30 inode blocks 13, bitmap blocks 1) blocks 954 total 1000
+balloc: first 647 blocks have been allocated
+balloc: write bitmap block at sector 45
+qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m 128M -smp 3 -nographic -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+init: starting sh
+$ pingpong
+4: received ping
+3: received pong
+$ QEMU: Terminated
+]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ make GRADEFLAGS=sleep grade[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C grade [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P grade
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P grade[1P grade[1P gradep gradei graden gradeg grade [A]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C grade[A]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp grade[A]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co grade[A]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C grad[1Pe[A]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C grade[K[A]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrade [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp grade[A]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co grade[A]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn grade[A]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg grade[A]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+make clean
+make[1]: Entering directory '/home/mayujia/os/xv6-labs-2021'
+rm -f *.tex *.dvi *.idx *.aux *.log *.ind *.ilg \
+*/*.o */*.d */*.asm */*.sym \
+user/initcode user/initcode.out kernel/kernel fs.img \
+mkfs/mkfs .gdbinit \
+        user/usys.S \
+user/_cat user/_echo user/_forktest user/_grep user/_init user/_kill user/_ln user/_ls user/_mkdir user/_rm user/_sh user/_stressfs user/_usertests user/_grind user/_wc user/_zombie user/_sleep user/_pingpong  \
+ph barrier
+make[1]: Leaving directory '/home/mayujia/os/xv6-labs-2021'
+./grade-lab-util pingpong
+make[1]: Entering directory '/home/mayujia/os/xv6-labs-2021'
+riscv64-linux-gnu-gcc    -c -o kernel/entry.o kernel/entry.S
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/kalloc.o kernel/kalloc.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/string.o kernel/string.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/main.o kernel/main.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/vm.o kernel/vm.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/proc.o kernel/proc.c
+riscv64-linux-gnu-gcc    -c -o kernel/swtch.o kernel/swtch.S
+riscv64-linux-gnu-gcc    -c -o kernel/trampoline.o kernel/trampoline.S
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/trap.o kernel/trap.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/syscall.o kernel/syscall.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/sysproc.o kernel/sysproc.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/bio.o kernel/bio.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/fs.o kernel/fs.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/log.o kernel/log.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/sleeplock.o kernel/sleeplock.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/file.o kernel/file.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/pipe.o kernel/pipe.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/exec.o kernel/exec.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/sysfile.o kernel/sysfile.c
+riscv64-linux-gnu-gcc    -c -o kernel/kernelvec.o kernel/kernelvec.S
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/plic.o kernel/plic.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/virtio_disk.o kernel/virtio_disk.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/start.o kernel/start.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/console.o kernel/console.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/printf.o kernel/printf.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/uart.o kernel/uart.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie  -c -o kernel/spinlock.o kernel/spinlock.c
+riscv64-linux-gnu-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I. -fno-stack-protector -fno-pie -no-pie -march=rv64g -nostdinc -I. -Ikernel -c user/initcode.S -o user/initcode.o
+riscv64-linux-gnu-ld -z max-page-size=4096 -N -e start -Ttext 0 -o user/initcode.out user/initcode.o
+riscv64-linux-gnu-objcopy -S -O binary user/initcode.out user/initcode
+riscv64-linux-gnu-objdump -S user/initcode.o > user/initcode.asm
+riscv64-linux-gnu-ld -z max-page-size=4096 -T kernel/kernel.ld -o kernel/kernel kernel/entry.o kernel/kalloc.o kernel/string.o kernel/main.o kernel/vm.o kernel/proc.o kernel/swtch.o kernel/trampoline.o kernel/trap.o kernel/syscall.o kernel/sysproc.o kernel/bio.o kernel/fs.o kernel/log.o kernel/sleeplock.o kernel/file.o kernel/pipe.o kernel/exec.o kernel/sysfile.o kernel/kernelvec.o kernel/plic.o kernel/virtio_disk.o kernel/start.o kernel/console.o kernel/printf.o kernel/uart.o kernel/spinlock.o
+riscv64-linux-gnu-objdump -S kernel/kernel > kernel/kernel.asm
+riscv64-linux-gnu-objdump -t kernel/kernel | sed '1,/SYMBOL TABLE/d; s/ .* / /; /^$/d' > kernel/kernel.sym
+make[1]: Leaving directory '/home/mayujia/os/xv6-labs-2021'
+== Test pingpong == pingpong: [32mOK[0m (2.5s) 
+    (Old xv6.out.pingpong failure log removed)
+]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ make GRADEFLAGS=pingpong grade[A]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ [C[C[C[C[Cqemu[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CGRADEFLAGS=pingpong grade[A]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ git add. [K[K .
+]0;mayujia@LAPTOP-PDSLMIND: ~/os/xv6-labs-2021[01;32mmayujia@LAPTOP-PDSLMIND[00m:[01;34m~/os/xv6-labs-2021[00m$ code .
+Installing VS Code Server for x64 (6c3e3dba23e8fadc360aed75ce363ba185c49794)
+Downloading:       0%  0%  0%  0%  0%  0%  0%  0%  0%  1%  1%  1%  1%  1%  1%  1%  1%  1%  1%  2%  2%  2%  2%  2%  2%  2%  2%  2%  3%  3%  3%  3%  3%  3%  3%  3%  3%  3%  4%  4%  4%  4%  4%  4%  4%  4%  4%  4%  5%  5%  5%  5%  5%  5%  5%  5%  5%  6%  6%  6%  6%  6%  6%  6%  6%  6%  6%  7%  7%  7%  7%  7%  7%  7%  7%  7%  7%  8%  8%  8%  8%  8%  8%  8%  8%  8%  9%  9%  9%  9%  9%  9%  9%  9%  9%  9% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 11% 11% 11% 11% 11% 11% 11% 11% 11% 12% 12% 12% 12% 12% 12% 12% 12% 12% 12% 13% 13% 13% 13% 13% 13% 13% 13% 13% 13% 14% 14% 14% 14% 14% 14% 14% 14% 14% 15% 15% 15% 15% 15% 15% 15% 15% 15% 15% 16% 16% 16% 16% 16% 16% 16% 16% 16% 16% 17% 17% 17% 17% 17% 17% 17% 17% 17% 18% 18% 18% 18% 18% 18% 18% 18% 18% 18% 19% 19% 19% 19% 19% 19% 19% 19% 19% 19% 20% 20% 20% 20% 20% 20% 20% 20% 20% 21% 21% 21% 21% 21% 21% 21% 21% 21% 21% 22% 22% 22% 22% 22% 22% 22% 22% 22% 23% 23% 23% 23% 23% 23% 23% 23% 23% 23% 24% 24% 24% 24% 24% 24% 24% 24% 24% 24% 25% 25% 25% 25% 25% 25% 25% 25% 25% 26% 26% 26% 26% 26% 26% 26% 26% 26% 26% 27% 27% 27% 27% 27% 27% 27% 27% 27% 27% 28% 28% 28% 28% 28% 28% 28% 28% 28% 29% 29% 29% 29% 29% 29% 29% 29% 29% 29% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 31% 31% 31% 31% 31% 31% 31% 31% 31% 32% 32% 32% 32% 32% 32% 32% 32% 32% 32% 33% 33% 33% 33% 33% 33% 33% 33% 33% 33% 34% 34% 34% 34% 34% 34% 34% 34% 34% 35% 35% 35% 35% 35% 35% 35% 35% 35% 35% 36% 36% 36% 36% 36% 36% 36% 36% 36% 36% 37% 37% 37% 37% 37% 37% 37% 37% 37% 38% 38% 38% 38% 38% 38% 38% 38% 38% 38% 39% 39% 39% 39% 39% 39% 39% 39% 39% 39% 40% 40% 40% 40% 40% 40% 40% 40% 40% 41% 41% 41% 41% 41% 41% 41% 41% 41% 41% 42% 42% 42% 42% 42% 42% 42% 42% 42% 43% 43% 43% 43% 43% 43% 43% 43% 43% 43% 44% 44% 44% 44% 44% 44% 44% 44% 44% 44% 45% 45% 45% 45% 45% 45% 45% 45% 45% 46% 46% 46% 46% 46% 46% 46% 46% 46% 46% 47% 47% 47% 47% 47% 47% 47% 47% 47% 47% 48% 48% 48% 48% 48% 48% 48% 48% 48% 49% 49% 49% 49% 49% 49% 49% 49% 49% 49% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 51% 51% 51% 51% 51% 51% 51% 51% 51% 52% 52% 52% 52% 52% 52% 52% 52% 52% 52% 53% 53% 53% 53% 53% 53% 53% 53% 53% 53% 54% 54% 54% 54% 54% 54% 54% 54% 54% 55% 55% 55% 55% 55% 55% 55% 55% 55% 55% 56% 56% 56% 56% 56% 56% 56% 56% 56% 56% 57% 57% 57% 57% 57% 57% 57% 57% 57% 58% 58% 58% 58% 58% 58% 58% 58% 58% 58% 59% 59% 59% 59% 59% 59% 59% 59% 59% 59% 60% 60% 60% 60% 60% 60% 60% 60% 60% 61% 61% 61% 61% 61% 61% 61% 61% 61% 61% 62% 62% 62% 62% 62% 62% 62% 62% 62% 63% 63% 63% 63% 63% 63% 63% 63% 63% 63% 64% 64% 64% 64% 64% 64% 64% 64% 64% 64% 65% 65% 65% 65% 65% 65% 65% 65% 65% 66% 66% 66% 66% 66% 66% 66% 66% 66% 66% 67% 67% 67% 67% 67% 67% 67% 67% 67% 67% 68% 68% 68% 68% 68% 68% 68% 68% 68% 69% 69%
